@@ -1,0 +1,14 @@
+a=34
+b=10
+while a%b!=0:
+     a=b
+     b=a%b
+     if b>0:
+        continue
+     else:
+        print(str(a))
+        break
+
+
+
+
